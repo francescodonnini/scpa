@@ -1,0 +1,3 @@
+/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/int.dir
+/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/rebuild_cache.dir

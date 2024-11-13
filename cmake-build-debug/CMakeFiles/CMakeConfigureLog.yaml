@@ -1,0 +1,1465 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.11.3-200.fc40.x86_64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qMTzzl"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qMTzzl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qMTzzl'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_d7549
+        [1/2] /usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_d7549.dir/CMakeCCompilerABI.c.o -c /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,m2,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-14.2.1-20240912/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none,amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20240912 (Red Hat 14.2.1-3) (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d7549.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7549.dir/'
+         /usr/libexec/gcc/x86_64-redhat-linux/14/cc1 -quiet -v /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d7549.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccnh4acF.s
+        GNU C17 (GCC) version 14.2.1 20240912 (Red Hat 14.2.1-3) (x86_64-redhat-linux)
+        	compiled by GNU C version 14.2.1 20240912 (Red Hat 14.2.1-3), GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/14/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/14/../../../../x86_64-redhat-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-redhat-linux/14/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        Compiler executable checksum: a827ac3ce32367df3fd4c736df15654d
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d7549.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7549.dir/'
+         as -v --64 -o CMakeFiles/cmTC_d7549.dir/CMakeCCompilerABI.c.o /tmp/ccnh4acF.s
+        GNU assembler version 2.41 (x86_64-redhat-linux) using BFD version version 2.41-37.fc40
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d7549.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7549.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /usr/bin/cc  -v CMakeFiles/cmTC_d7549.dir/CMakeCCompilerABI.c.o -o cmTC_d7549   && :
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,m2,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-14.2.1-20240912/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none,amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20240912 (Red Hat 14.2.1-3) (GCC) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d7549' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d7549.'
+         /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEnMU7q.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d7549 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. CMakeFiles/cmTC_d7549.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d7549' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d7549.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-redhat-linux/14/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/14/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/14/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-redhat-linux/14/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qMTzzl']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_d7549]
+        ignore line: [[1/2] /usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_d7549.dir/CMakeCCompilerABI.c.o -c /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d m2 lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-14.2.1-20240912/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20240912 (Red Hat 14.2.1-3) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d7549.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7549.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/cc1 -quiet -v /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d7549.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccnh4acF.s]
+        ignore line: [GNU C17 (GCC) version 14.2.1 20240912 (Red Hat 14.2.1-3) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 14.2.1 20240912 (Red Hat 14.2.1-3)  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/14/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/14/../../../../x86_64-redhat-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/14/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: a827ac3ce32367df3fd4c736df15654d]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d7549.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7549.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_d7549.dir/CMakeCCompilerABI.c.o /tmp/ccnh4acF.s]
+        ignore line: [GNU assembler version 2.41 (x86_64-redhat-linux) using BFD version version 2.41-37.fc40]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d7549.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7549.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /usr/bin/cc  -v CMakeFiles/cmTC_d7549.dir/CMakeCCompilerABI.c.o -o cmTC_d7549   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d m2 lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-14.2.1-20240912/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20240912 (Red Hat 14.2.1-3) (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d7549' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d7549.']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEnMU7q.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d7549 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. CMakeFiles/cmTC_d7549.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/14/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccEnMU7q.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--no-add-needed] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_d7549] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/14] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/14/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../..]
+          arg [CMakeFiles/cmTC_d7549.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/crtend.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/14] ==> [/usr/lib/gcc/x86_64-redhat-linux/14]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/14/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/14;/usr/lib64;/lib64;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OmihPo"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OmihPo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OmihPo'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_95561
+        [1/2] /usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_95561.dir/CMakeCXXCompilerABI.cpp.o -c /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,m2,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-14.2.1-20240912/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none,amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20240912 (Red Hat 14.2.1-3) (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_95561.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_95561.dir/'
+         /usr/libexec/gcc/x86_64-redhat-linux/14/cc1plus -quiet -v -D_GNU_SOURCE /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_95561.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccZ3et3H.s
+        GNU C++17 (GCC) version 14.2.1 20240912 (Red Hat 14.2.1-3) (x86_64-redhat-linux)
+        	compiled by GNU C version 14.2.1 20240912 (Red Hat 14.2.1-3), GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/14/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/14/../../../../x86_64-redhat-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14
+         /usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/x86_64-redhat-linux
+         /usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/backward
+         /usr/lib/gcc/x86_64-redhat-linux/14/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        Compiler executable checksum: eec2371a83b7453e8c6bc9f634c2b1c3
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_95561.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_95561.dir/'
+         as -v --64 -o CMakeFiles/cmTC_95561.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccZ3et3H.s
+        GNU assembler version 2.41 (x86_64-redhat-linux) using BFD version version 2.41-37.fc40
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_95561.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_95561.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /usr/bin/c++  -v CMakeFiles/cmTC_95561.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_95561   && :
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,m2,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-14.2.1-20240912/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none,amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20240912 (Red Hat 14.2.1-3) (GCC) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_95561' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_95561.'
+         /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJpTIIu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_95561 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. CMakeFiles/cmTC_95561.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_95561' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_95561.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/x86_64-redhat-linux]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/backward]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/14/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14] ==> [/usr/include/c++/14]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/x86_64-redhat-linux] ==> [/usr/include/c++/14/x86_64-redhat-linux]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/backward] ==> [/usr/include/c++/14/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/14/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/14/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/14;/usr/include/c++/14/x86_64-redhat-linux;/usr/include/c++/14/backward;/usr/lib/gcc/x86_64-redhat-linux/14/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OmihPo']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_95561]
+        ignore line: [[1/2] /usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_95561.dir/CMakeCXXCompilerABI.cpp.o -c /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d m2 lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-14.2.1-20240912/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20240912 (Red Hat 14.2.1-3) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_95561.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_95561.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/cc1plus -quiet -v -D_GNU_SOURCE /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_95561.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccZ3et3H.s]
+        ignore line: [GNU C++17 (GCC) version 14.2.1 20240912 (Red Hat 14.2.1-3) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 14.2.1 20240912 (Red Hat 14.2.1-3)  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/14/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/14/../../../../x86_64-redhat-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/x86_64-redhat-linux]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/14/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: eec2371a83b7453e8c6bc9f634c2b1c3]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_95561.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_95561.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_95561.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccZ3et3H.s]
+        ignore line: [GNU assembler version 2.41 (x86_64-redhat-linux) using BFD version version 2.41-37.fc40]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_95561.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_95561.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /usr/bin/c++  -v CMakeFiles/cmTC_95561.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_95561   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d m2 lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-14.2.1-20240912/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20240912 (Red Hat 14.2.1-3) (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_95561' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_95561.']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJpTIIu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_95561 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. CMakeFiles/cmTC_95561.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/14/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccJpTIIu.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--no-add-needed] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_95561] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/14] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/14/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../..]
+          arg [CMakeFiles/cmTC_95561.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/crtend.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/14] ==> [/usr/lib/gcc/x86_64-redhat-linux/14]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/14/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/14;/usr/lib64;/lib64;/usr/lib]
+        implicit fwks: []
+      
+      
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DGDgIY"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DGDgIY"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DGDgIY'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_8ef77
+        [1/2] /usr/bin/cc  -isystem /home/francesco/include -fdiagnostics-color=always -o CMakeFiles/cmTC_8ef77.dir/test_mpi.c.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DGDgIY/test_mpi.c
+        [2/2] : && /usr/bin/cc  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_8ef77.dir/test_mpi.c.o -o cmTC_8ef77  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-n5sq5w"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-n5sq5w"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-n5sq5w'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_a8beb
+        [1/2] /usr/bin/c++  -isystem /home/francesco/include -fdiagnostics-color=always -o CMakeFiles/cmTC_a8beb.dir/test_mpi.cpp.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-n5sq5w/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_a8beb.dir/test_mpi.cpp.o -o cmTC_a8beb  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OuHykU"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OuHykU"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OuHykU'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_c4fcb
+        [1/2] /usr/bin/c++  -isystem /home/francesco/include -fdiagnostics-color=always -o CMakeFiles/cmTC_c4fcb.dir/test_mpi.cpp.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OuHykU/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_c4fcb.dir/test_mpi.cpp.o -o cmTC_c4fcb  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2NWATF"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2NWATF"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2NWATF'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_cd145
+        [1/2] /usr/bin/cc  -isystem /home/francesco/include  -o CMakeFiles/cmTC_cd145.dir/test_mpi.c.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2NWATF/test_mpi.c
+        [2/2] : && /usr/bin/cc  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_cd145.dir/test_mpi.c.o -o cmTC_cd145  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HNvfoY"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HNvfoY"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HNvfoY'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_f2660
+        [1/2] /usr/bin/c++  -isystem /home/francesco/include  -o CMakeFiles/cmTC_f2660.dir/test_mpi.cpp.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HNvfoY/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_f2660.dir/test_mpi.cpp.o -o cmTC_f2660  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-KDnya2"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-KDnya2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-KDnya2'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_67659
+        [1/2] /usr/bin/c++  -isystem /home/francesco/include  -o CMakeFiles/cmTC_67659.dir/test_mpi.cpp.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-KDnya2/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_67659.dir/test_mpi.cpp.o -o cmTC_67659  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Qth0sP"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Qth0sP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Qth0sP'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_cd211
+        [1/2] /usr/bin/cc  -isystem /home/francesco/include  -o CMakeFiles/cmTC_cd211.dir/test_mpi.c.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Qth0sP/test_mpi.c
+        [2/2] : && /usr/bin/cc  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_cd211.dir/test_mpi.c.o -o cmTC_cd211  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T5qOXN"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T5qOXN"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T5qOXN'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_e2f31
+        [1/2] /usr/bin/c++  -isystem /home/francesco/include  -o CMakeFiles/cmTC_e2f31.dir/test_mpi.cpp.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T5qOXN/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_e2f31.dir/test_mpi.cpp.o -o cmTC_e2f31  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9Qq34f"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9Qq34f"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9Qq34f'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_f5461
+        [1/2] /usr/bin/c++  -isystem /home/francesco/include  -o CMakeFiles/cmTC_f5461.dir/test_mpi.cpp.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9Qq34f/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_f5461.dir/test_mpi.cpp.o -o cmTC_f5461  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8VQVSQ"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8VQVSQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8VQVSQ'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_9bdc4
+        [1/2] /usr/bin/cc  -isystem /home/francesco/include -fdiagnostics-color=always -o CMakeFiles/cmTC_9bdc4.dir/test_mpi.c.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8VQVSQ/test_mpi.c
+        [2/2] : && /usr/bin/cc  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_9bdc4.dir/test_mpi.c.o -o cmTC_9bdc4  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZzrHi0"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZzrHi0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZzrHi0'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_2a986
+        [1/2] /usr/bin/c++  -isystem /home/francesco/include -fdiagnostics-color=always -o CMakeFiles/cmTC_2a986.dir/test_mpi.cpp.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZzrHi0/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_2a986.dir/test_mpi.cpp.o -o cmTC_2a986  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3q4bl4"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3q4bl4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3q4bl4'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_5952a
+        [1/2] /usr/bin/c++  -isystem /home/francesco/include -fdiagnostics-color=always -o CMakeFiles/cmTC_5952a.dir/test_mpi.cpp.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3q4bl4/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_5952a.dir/test_mpi.cpp.o -o cmTC_5952a  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.11.5-300.fc41.x86_64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Pw4evQ"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Pw4evQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Pw4evQ'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_39a89
+        [1/2] /usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_39a89.dir/CMakeCCompilerABI.c.o -c /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,m2,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-14.2.1-build/gcc-14.2.1-20240912/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none,amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20240912 (Red Hat 14.2.1-3) (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_39a89.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_39a89.dir/'
+         /usr/libexec/gcc/x86_64-redhat-linux/14/cc1 -quiet -v /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_39a89.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccN2osUe.s
+        GNU C17 (GCC) version 14.2.1 20240912 (Red Hat 14.2.1-3) (x86_64-redhat-linux)
+        	compiled by GNU C version 14.2.1 20240912 (Red Hat 14.2.1-3), GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/14/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/14/../../../../x86_64-redhat-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-redhat-linux/14/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 3cfa2c922a2ef3f6017b437b0661c120
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_39a89.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_39a89.dir/'
+         as -v --64 -o CMakeFiles/cmTC_39a89.dir/CMakeCCompilerABI.c.o /tmp/ccN2osUe.s
+        GNU assembler version 2.43.1 (x86_64-redhat-linux) using BFD version version 2.43.1-2.fc41
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_39a89.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_39a89.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_39a89.dir/CMakeCCompilerABI.c.o -o cmTC_39a89   && :
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,m2,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-14.2.1-build/gcc-14.2.1-20240912/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none,amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20240912 (Red Hat 14.2.1-3) (GCC) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_39a89' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_39a89.'
+         /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTLw5IS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_39a89 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_39a89.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o
+        collect2 version 14.2.1 20240912 (Red Hat 14.2.1-3)
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTLw5IS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_39a89 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_39a89.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o
+        GNU ld version 2.43.1-2.fc41
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_39a89' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_39a89.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-redhat-linux/14/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/14/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/14/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-redhat-linux/14/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Pw4evQ']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_39a89]
+        ignore line: [[1/2] /usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_39a89.dir/CMakeCCompilerABI.c.o -c /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d m2 lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-14.2.1-build/gcc-14.2.1-20240912/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20240912 (Red Hat 14.2.1-3) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_39a89.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_39a89.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/cc1 -quiet -v /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_39a89.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccN2osUe.s]
+        ignore line: [GNU C17 (GCC) version 14.2.1 20240912 (Red Hat 14.2.1-3) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 14.2.1 20240912 (Red Hat 14.2.1-3)  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/14/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/14/../../../../x86_64-redhat-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/14/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 3cfa2c922a2ef3f6017b437b0661c120]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_39a89.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_39a89.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_39a89.dir/CMakeCCompilerABI.c.o /tmp/ccN2osUe.s]
+        ignore line: [GNU assembler version 2.43.1 (x86_64-redhat-linux) using BFD version version 2.43.1-2.fc41]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_39a89.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_39a89.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /usr/bin/cc  -v -Wl -v CMakeFiles/cmTC_39a89.dir/CMakeCCompilerABI.c.o -o cmTC_39a89   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d m2 lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-14.2.1-build/gcc-14.2.1-20240912/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20240912 (Red Hat 14.2.1-3) (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_39a89' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_39a89.']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTLw5IS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_39a89 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_39a89.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/14/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccTLw5IS.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--no-add-needed] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_39a89] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/14] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/14/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_39a89.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/crtend.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
+        ignore line: [collect2 version 14.2.1 20240912 (Red Hat 14.2.1-3)]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTLw5IS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_39a89 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_39a89.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/14] ==> [/usr/lib/gcc/x86_64-redhat-linux/14]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/14/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/14;/usr/lib64;/lib64;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld version 2.43.1-2.fc41
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zpMC9W"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zpMC9W"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zpMC9W'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_afddd
+        [1/2] /usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_afddd.dir/CMakeCXXCompilerABI.cpp.o -c /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,m2,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-14.2.1-build/gcc-14.2.1-20240912/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none,amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20240912 (Red Hat 14.2.1-3) (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_afddd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_afddd.dir/'
+         /usr/libexec/gcc/x86_64-redhat-linux/14/cc1plus -quiet -v -D_GNU_SOURCE /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_afddd.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccOyXtNA.s
+        GNU C++17 (GCC) version 14.2.1 20240912 (Red Hat 14.2.1-3) (x86_64-redhat-linux)
+        	compiled by GNU C version 14.2.1 20240912 (Red Hat 14.2.1-3), GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/14/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/14/../../../../x86_64-redhat-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14
+         /usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/x86_64-redhat-linux
+         /usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/backward
+         /usr/lib/gcc/x86_64-redhat-linux/14/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 4167a6214c52e277bbc153ab0994ccd5
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_afddd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_afddd.dir/'
+         as -v --64 -o CMakeFiles/cmTC_afddd.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccOyXtNA.s
+        GNU assembler version 2.43.1 (x86_64-redhat-linux) using BFD version version 2.43.1-2.fc41
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_afddd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_afddd.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_afddd.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_afddd   && :
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,m2,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-14.2.1-build/gcc-14.2.1-20240912/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none,amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.1 20240912 (Red Hat 14.2.1-3) (GCC) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_afddd' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_afddd.'
+         /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7PawfY.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_afddd /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_afddd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o
+        collect2 version 14.2.1 20240912 (Red Hat 14.2.1-3)
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7PawfY.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_afddd /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_afddd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o
+        GNU ld version 2.43.1-2.fc41
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_afddd' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_afddd.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/x86_64-redhat-linux]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/backward]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/14/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14] ==> [/usr/include/c++/14]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/x86_64-redhat-linux] ==> [/usr/include/c++/14/x86_64-redhat-linux]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/backward] ==> [/usr/include/c++/14/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/14/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/14/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/14;/usr/include/c++/14/x86_64-redhat-linux;/usr/include/c++/14/backward;/usr/lib/gcc/x86_64-redhat-linux/14/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zpMC9W']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_afddd]
+        ignore line: [[1/2] /usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_afddd.dir/CMakeCXXCompilerABI.cpp.o -c /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d m2 lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-14.2.1-build/gcc-14.2.1-20240912/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20240912 (Red Hat 14.2.1-3) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_afddd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_afddd.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/cc1plus -quiet -v -D_GNU_SOURCE /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_afddd.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccOyXtNA.s]
+        ignore line: [GNU C++17 (GCC) version 14.2.1 20240912 (Red Hat 14.2.1-3) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 14.2.1 20240912 (Red Hat 14.2.1-3)  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/14/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/14/../../../../x86_64-redhat-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/x86_64-redhat-linux]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/14/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 4167a6214c52e277bbc153ab0994ccd5]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_afddd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_afddd.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_afddd.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccOyXtNA.s]
+        ignore line: [GNU assembler version 2.43.1 (x86_64-redhat-linux) using BFD version version 2.43.1-2.fc41]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_afddd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_afddd.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /usr/bin/c++  -v -Wl -v CMakeFiles/cmTC_afddd.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_afddd   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d m2 lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-14.2.1-build/gcc-14.2.1-20240912/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.1 20240912 (Red Hat 14.2.1-3) (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_afddd' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_afddd.']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/14/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7PawfY.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_afddd /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_afddd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/14/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc7PawfY.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--no-add-needed] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_afddd] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/14] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/14/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_afddd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/crtend.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
+        ignore line: [collect2 version 14.2.1 20240912 (Red Hat 14.2.1-3)]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7PawfY.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_afddd /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. -v CMakeFiles/cmTC_afddd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/14] ==> [/usr/lib/gcc/x86_64-redhat-linux/14]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/14/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/14/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/14;/usr/lib64;/lib64;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld version 2.43.1-2.fc41
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qSYejD"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qSYejD"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qSYejD'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_75d16
+        [1/2] /usr/bin/cc  -isystem /home/francesco/include -fdiagnostics-color=always -o CMakeFiles/cmTC_75d16.dir/test_mpi.c.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qSYejD/test_mpi.c
+        [2/2] : && /usr/bin/cc  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_75d16.dir/test_mpi.c.o -o cmTC_75d16  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IxVYjT"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IxVYjT"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IxVYjT'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_79ace
+        [1/2] /usr/bin/c++  -isystem /home/francesco/include -fdiagnostics-color=always -o CMakeFiles/cmTC_79ace.dir/test_mpi.cpp.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IxVYjT/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_79ace.dir/test_mpi.cpp.o -o cmTC_79ace  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s2EB31"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s2EB31"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s2EB31'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_c49f0
+        [1/2] /usr/bin/c++  -isystem /home/francesco/include -fdiagnostics-color=always -o CMakeFiles/cmTC_c49f0.dir/test_mpi.cpp.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s2EB31/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_c49f0.dir/test_mpi.cpp.o -o cmTC_c49f0  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pi3whr"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pi3whr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pi3whr'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_eb2c4
+        [1/2] /usr/bin/cc  -isystem /home/francesco/include -fdiagnostics-color=always -o CMakeFiles/cmTC_eb2c4.dir/test_mpi.c.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pi3whr/test_mpi.c
+        [2/2] : && /usr/bin/cc  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_eb2c4.dir/test_mpi.c.o -o cmTC_eb2c4  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aZWDne"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aZWDne"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aZWDne'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_e954a
+        [1/2] /usr/bin/c++  -isystem /home/francesco/include -fdiagnostics-color=always -o CMakeFiles/cmTC_e954a.dir/test_mpi.cpp.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aZWDne/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_e954a.dir/test_mpi.cpp.o -o cmTC_e954a  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cQwqkD"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cQwqkD"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cQwqkD'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_2e4ea
+        [1/2] /usr/bin/c++  -isystem /home/francesco/include -fdiagnostics-color=always -o CMakeFiles/cmTC_2e4ea.dir/test_mpi.cpp.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cQwqkD/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_2e4ea.dir/test_mpi.cpp.o -o cmTC_2e4ea  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+...
