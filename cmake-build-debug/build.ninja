@@ -49,8 +49,8 @@ cmake_ninja_workdir = /home/francesco/CLionProjects/int/cmake-build-debug/
 
 build cmake_object_order_depends_target_int: phony || .
 
-build CMakeFiles/int.dir/main.c.o: C_COMPILER__int_unscanned_Debug /home/francesco/CLionProjects/int/main.c || cmake_object_order_depends_target_int
-  DEP_FILE = CMakeFiles/int.dir/main.c.o.d
+build CMakeFiles/int.dir/mtx_vec_main.c.o: C_COMPILER__int_unscanned_Debug /home/francesco/CLionProjects/int/mtx_vec_main.c || cmake_object_order_depends_target_int
+  DEP_FILE = CMakeFiles/int.dir/mtx_vec_main.c.o.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -isystem /home/francesco/include
   OBJECT_DIR = CMakeFiles/int.dir
@@ -64,7 +64,7 @@ build CMakeFiles/int.dir/main.c.o: C_COMPILER__int_unscanned_Debug /home/frances
 #############################################
 # Link the executable int
 
-build int: C_EXECUTABLE_LINKER__int_Debug CMakeFiles/int.dir/main.c.o | /home/francesco/lib/libmpi.so
+build int: C_EXECUTABLE_LINKER__int_Debug CMakeFiles/int.dir/mtx_vec_main.c.o | /home/francesco/lib/libmpi.so
   FLAGS = -g
   LINK_FLAGS = -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags
   LINK_LIBRARIES = -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so

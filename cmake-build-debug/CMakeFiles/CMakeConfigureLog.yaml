@@ -1463,3 +1463,408 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8O3Cux"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8O3Cux"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8O3Cux'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_d8f7b
+        [1/2] /usr/bin/cc  -isystem /home/francesco/include -fdiagnostics-color=always -o CMakeFiles/cmTC_d8f7b.dir/test_mpi.c.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8O3Cux/test_mpi.c
+        [2/2] : && /usr/bin/cc  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_d8f7b.dir/test_mpi.c.o -o cmTC_d8f7b  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GjnYdS"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GjnYdS"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GjnYdS'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_a14ba
+        [1/2] /usr/bin/c++  -isystem /home/francesco/include -fdiagnostics-color=always -o CMakeFiles/cmTC_a14ba.dir/test_mpi.cpp.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GjnYdS/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_a14ba.dir/test_mpi.cpp.o -o cmTC_a14ba  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bUEu0P"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bUEu0P"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bUEu0P'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_8054e
+        [1/2] /usr/bin/c++  -isystem /home/francesco/include -fdiagnostics-color=always -o CMakeFiles/cmTC_8054e.dir/test_mpi.cpp.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bUEu0P/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_8054e.dir/test_mpi.cpp.o -o cmTC_8054e  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AITIUN"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AITIUN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AITIUN'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_42b0e
+        [1/2] /usr/bin/cc  -isystem /home/francesco/include -fdiagnostics-color=always -o CMakeFiles/cmTC_42b0e.dir/test_mpi.c.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AITIUN/test_mpi.c
+        [2/2] : && /usr/bin/cc  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_42b0e.dir/test_mpi.c.o -o cmTC_42b0e  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-SfBrSq"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-SfBrSq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-SfBrSq'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_edc1d
+        [1/2] /usr/bin/c++  -isystem /home/francesco/include -fdiagnostics-color=always -o CMakeFiles/cmTC_edc1d.dir/test_mpi.cpp.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-SfBrSq/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_edc1d.dir/test_mpi.cpp.o -o cmTC_edc1d  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AX9Tqi"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AX9Tqi"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AX9Tqi'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_57d70
+        [1/2] /usr/bin/c++  -isystem /home/francesco/include -fdiagnostics-color=always -o CMakeFiles/cmTC_57d70.dir/test_mpi.cpp.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AX9Tqi/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_57d70.dir/test_mpi.cpp.o -o cmTC_57d70  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-skryjQ"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-skryjQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-skryjQ'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_3485e
+        [1/2] /usr/bin/cc  -isystem /home/francesco/include -fdiagnostics-color=always -o CMakeFiles/cmTC_3485e.dir/test_mpi.c.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-skryjQ/test_mpi.c
+        [2/2] : && /usr/bin/cc  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_3485e.dir/test_mpi.c.o -o cmTC_3485e  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XT4mky"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XT4mky"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XT4mky'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_2a279
+        [1/2] /usr/bin/c++  -isystem /home/francesco/include -fdiagnostics-color=always -o CMakeFiles/cmTC_2a279.dir/test_mpi.cpp.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XT4mky/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_2a279.dir/test_mpi.cpp.o -o cmTC_2a279  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-32LiWw"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-32LiWw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-32LiWw'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_7533f
+        [1/2] /usr/bin/c++  -isystem /home/francesco/include -fdiagnostics-color=always -o CMakeFiles/cmTC_7533f.dir/test_mpi.cpp.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-32LiWw/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_7533f.dir/test_mpi.cpp.o -o cmTC_7533f  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-UugVlV"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-UugVlV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-UugVlV'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_15d4c
+        [1/2] /usr/bin/cc  -isystem /home/francesco/include -fdiagnostics-color=always -o CMakeFiles/cmTC_15d4c.dir/test_mpi.c.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-UugVlV/test_mpi.c
+        [2/2] : && /usr/bin/cc  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_15d4c.dir/test_mpi.c.o -o cmTC_15d4c  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2RPZ8M"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2RPZ8M"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2RPZ8M'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_6418b
+        [1/2] /usr/bin/c++  -isystem /home/francesco/include -fdiagnostics-color=always -o CMakeFiles/cmTC_6418b.dir/test_mpi.cpp.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2RPZ8M/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_6418b.dir/test_mpi.cpp.o -o cmTC_6418b  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8vZgKr"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8vZgKr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8vZgKr'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_d360b
+        [1/2] /usr/bin/c++  -isystem /home/francesco/include -fdiagnostics-color=always -o CMakeFiles/cmTC_d360b.dir/test_mpi.cpp.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8vZgKr/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_d360b.dir/test_mpi.cpp.o -o cmTC_d360b  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iGPjxU"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iGPjxU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iGPjxU'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_1606d
+        [1/2] /usr/bin/cc  -isystem /home/francesco/include  -o CMakeFiles/cmTC_1606d.dir/test_mpi.c.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iGPjxU/test_mpi.c
+        [2/2] : && /usr/bin/cc  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_1606d.dir/test_mpi.c.o -o cmTC_1606d  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vU2r1t"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vU2r1t"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vU2r1t'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_3e17c
+        [1/2] /usr/bin/c++  -isystem /home/francesco/include  -o CMakeFiles/cmTC_3e17c.dir/test_mpi.cpp.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vU2r1t/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_3e17c.dir/test_mpi.cpp.o -o cmTC_3e17c  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OmmJyd"
+      binary: "/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OmmJyd"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OmmJyd'
+        
+        Run Build Command(s): /home/francesco/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_826ab
+        [1/2] /usr/bin/c++  -isystem /home/francesco/include  -o CMakeFiles/cmTC_826ab.dir/test_mpi.cpp.o -c /home/francesco/CLionProjects/int/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OmmJyd/test_mpi.cpp
+        [2/2] : && /usr/bin/c++  -Wl,-rpath -Wl,/home/francesco/lib -Wl,--enable-new-dtags CMakeFiles/cmTC_826ab.dir/test_mpi.cpp.o -o cmTC_826ab  -Wl,-rpath,/home/francesco/lib  /home/francesco/lib/libmpi.so && :
+        
+      exitCode: 0
+...
