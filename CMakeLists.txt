@@ -7,6 +7,7 @@ find_package(MPI REQUIRED)
 
 add_executable(int
         mtx_vec_main.c
+        commons.h
 )
 
 target_link_libraries(int PRIVATE MPI::MPI_CXX)
