@@ -5,6 +5,6 @@ set(CMAKE_CXX_STANDARD 17)
 
 find_package(MPI REQUIRED)
 
-add_executable(int main.c)
+add_executable(int int_main.c)
 
 target_link_libraries(int PRIVATE MPI::MPI_CXX)

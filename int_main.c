@@ -26,7 +26,6 @@ int main(int argc, char ** argv)
     MPI_Type_commit(&type);
     workload_t workload;
     if (rank == 0) {
-        int n;
         printf("Enter a, b, n\n");
         scanf("%lf %lf %d", &workload.a, &workload.b, &workload.n);
         // send data
